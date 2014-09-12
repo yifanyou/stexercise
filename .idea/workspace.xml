@@ -80,7 +80,7 @@
       <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="336">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336">
               <folding />
             </state>
           </provider>
@@ -89,7 +89,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+            <state line="3" column="0" selection-start="52" selection-end="52" vertical-scroll-proportion="0.17213115" vertical-offset="0" max-vertical-offset="366">
               <folding />
             </state>
           </provider>
@@ -129,6 +129,7 @@
         <option value="$PROJECT_DIR$/stexercise.iml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -183,6 +184,9 @@
     <panes>
       <pane id="PackagesPane">
         <subPane />
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files" />
       </pane>
       <pane id="ProjectPane">
         <subPane>
@@ -416,9 +420,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files" />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -437,7 +438,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Projects/SVN/ecsecurity" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.38499507" />
@@ -712,8 +713,8 @@
       </method>
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.All in ShopDemo" />
-      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat6" />
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat6" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.All in ShopDemo" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -741,11 +742,13 @@
       <workItem from="1410406561005" duration="358000" />
       <workItem from="1410406930222" duration="2000000" />
       <workItem from="1410415002710" duration="2081000" />
+      <workItem from="1410420398603" duration="115000" />
+      <workItem from="1410506874169" duration="31000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21852000" />
+    <option name="totallyTimeSpent" value="21998000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1298" height="784" extended-state="6" />
@@ -773,7 +776,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16290322" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2596774" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35889572" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35889572" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32974002" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -806,6 +809,48 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="10" selection-start="2470" selection-end="2470" vertical-scroll-proportion="0.0" vertical-offset="1699" max-vertical-offset="2289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="189">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="10" selection-start="2470" selection-end="2470" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="99" column="18" selection-start="3570" selection-end="3570" vertical-scroll-proportion="0.0" vertical-offset="1470" max-vertical-offset="2247">
           <folding />
         </state>
@@ -813,9 +858,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stexercise.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="38" selection-start="1810" selection-end="1810" vertical-scroll-proportion="0.0" vertical-offset="672" max-vertical-offset="1407">
-          <folding />
-        </state>
+        <state line="36" column="38" selection-start="1810" selection-end="1810" vertical-scroll-proportion="0.0" vertical-offset="672" max-vertical-offset="1407" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -891,9 +934,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stexercise.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="38" selection-start="1810" selection-end="1810" vertical-scroll-proportion="-0.113513514" vertical-offset="798" max-vertical-offset="1407">
-          <folding />
-        </state>
+        <state line="36" column="38" selection-start="1810" selection-end="1810" vertical-scroll-proportion="-0.113513514" vertical-offset="798" max-vertical-offset="1407" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -912,16 +953,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/.sencha/app/microloader/development.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-11.345454" vertical-offset="3744" max-vertical-offset="4074">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-11.345454" vertical-offset="3744" max-vertical-offset="4074" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/.sencha/app/microloader/production.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.17897727" vertical-offset="63" max-vertical-offset="16653">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.17897727" vertical-offset="63" max-vertical-offset="16653" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
@@ -940,7 +977,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
+        <state line="3" column="0" selection-start="52" selection-end="52" vertical-scroll-proportion="0.17213115" vertical-offset="0" max-vertical-offset="366">
           <folding />
         </state>
       </provider>
