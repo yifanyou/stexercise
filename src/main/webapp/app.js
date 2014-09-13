@@ -49,9 +49,13 @@ Ext.application({
         // Initialize the main view
         //Ext.Viewport.add(Ext.create('helloworld.view.Main'));
 
-        var notesListContainer = Ext.create("NotesApp.view.NotesListContainer");
+        //var notesListContainer = Ext.create("NotesApp.view.NotesListContainer");
+        var notesListContainer = {
+            xtype:"noteslistcontainer"
+        };
+
         Ext.Viewport.add(notesListContainer);
-        console.log("App launch");
+        //console.log("App launch");
     }
 
 //    onUpdated: function() {
