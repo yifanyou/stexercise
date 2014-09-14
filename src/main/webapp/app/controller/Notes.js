@@ -31,6 +31,19 @@ Ext.define("NotesApp.controller.Notes",{
 //        console.log("onNewNote");
 //    }
     onNewNoteCommand:function(){
+        //Ext.viewport.setActiveItem(1);
+        //Ext.viewport.setActiveIndex(1);
+        Ext.Viewport.setActiveItem(1);
+        var now = new Date();
+        var noteId = now.getTime();
+        var note = new Ext.create("NotesApp.model.Note",{
+            id:noteId,
+            date:now,
+            title:"hi,title",
+            narrative:"你好"
+        });
+
+        NotesApp.noteEditor.myForm.setRecord(note);
         console.log("onNewNoteCommand");
     },
     onEditNoteCommand:function(list, record){

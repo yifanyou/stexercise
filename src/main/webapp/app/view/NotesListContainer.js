@@ -24,19 +24,19 @@ Ext.define("NotesApp.view.NotesListContainer",{
             }, newButton]
          };
 
-//        var notesList = {
-//            xtype:"noteslist",
-//            //store:Ext.getStore("Notes"),
-//            listeners:{
-//                disclose:{
-//                    fn:this.onNotesListDisclose,
-//                    scope:this
-//                }
-//            }
-//        };
-//        this.add([topToolbar, notesList]);
+        var notesList = {
+            xtype:"noteslist",
+            store:Ext.getStore("Notes"),
+            listeners:{
+                disclose:{
+                    fn:this.onNotesListDisclose,
+                    scope:this
+                }
+            }
+        };
 
-        this.add([topToolbar]);
+        this.add([topToolbar, notesList]);
+
     },
 
     onNewButtonTap:function(){

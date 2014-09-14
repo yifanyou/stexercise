@@ -17,8 +17,13 @@ Ext.application({
 //        'Ext.MessageBox'
 //    ],
 //
+    models:['Note'],
+
+    stores:['Notes'],
+
     views: [
-        'NotesListContainer'
+        'NotesListContainer',
+        'NotesList'
     ],
 
     controllers:["Notes"],
@@ -54,7 +59,81 @@ Ext.application({
             xtype:"noteslistcontainer"
         };
 
-        Ext.Viewport.add(notesListContainer);
+//        var noteEditor = new Ext.form.Panel({
+//
+//        });
+
+        var noteEditorTopToolbar = Ext.create("Ext.Toolbar", {
+            dock:"top",
+            title:"Edit Note",
+            items:[
+                {
+                    text:"Home",
+                    ui:"back",
+                    handler:function(){
+
+                    }
+                },{
+                    xtype:"spacer"
+                },{
+                    text:"Save",
+                    ui:"action",
+                    handler:function(){
+
+                    }
+                }
+            ]
+        });
+
+        var noteEditorBottomToolbar = Ext.create("Ext.Toolbar", {
+            dock:"bottom",
+            items:[
+                {xtype:"spacer"},
+                {
+                    iconCls:"trash",
+                    iconMask:true,
+                    handler:function(){
+
+                    }
+                }
+            ]
+        });
+
+        var noteEditor = Ext.create('Ext.form.Panel',{
+            id:"noteEditor",
+            items:[{
+                xtype:"textfield",
+                name:"title",
+                label:"Title",
+                required:true
+            },{
+                xtype:"textareafield",
+                name:"narrative",
+                label:"Narrative"
+            }]
+        });
+        noteEditor.add([noteEditorTopToolbar, noteEditorBottomToolbar]);
+
+        NotesApp.notesList = notesListContainer;
+        NotesApp.notesEditor = noteEditor;
+
+        Ext.Viewport = new Ext.Panel({
+            layout:{
+                type:'card',
+                animation:{
+                    type:'slide',
+                    direction:'left'
+                }
+            },
+            fullscreen:true,
+            items:[notesListContainer, noteEditor]
+//            fullscreen:true,
+//            layout:"card",
+//            cardAnimation:"slide",
+//            items:[noteEditor]
+        })
+
+        //Ext.Viewport.add(notesListContainer);
         //console.log("App launch");
     }
 
